@@ -11,7 +11,7 @@
 
 实现上传、下载、展示、搜索、图片拖拽上传
 
-### 3. 使用SmartUplaod，
+### 3. 使用SmartUplaod+MySQL+Hadoop
 
 使用MySQL数据库，Hadop的倒排索引技术，
 
