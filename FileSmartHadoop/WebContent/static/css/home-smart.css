@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/* 右侧table格式  */
+.file-list {
+	text-align: center; /*让div内部文字居中*/
+	border-radius: 20px;
+	width: 600px;
+	height: 450px;
+	margin: auto;
+	position: absolute;
+	top: 500px;
+	left: 330px;
+	right: 0;
+	bottom: 0;
+	border: 1px solid;
+	z-index: 9996;
+}
+
+.uploadfile {
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	font-weight: bold;
+	font-size: 48px;
+}
+
+.list {
+	position: absolute;
+	width: 500px;
+	left: 300px;
+	text-align: center;
+}
+
+.list-table {
+	font-size: 20px;
+	width: 550px;
+	left: 0px;
+	position: relative;
+}
+
+.list-table  tr {
+	
+}
+
+.list-table  tr td {
+	text-align: left;
+	padding: 0 10px;
+	margin: 10px 25px;
+	position: absolute;
+	top: 0px;
+	background: rgb(224, 226, 190);
+	color: rgb(0, 0, 0);
+	border-radius: 8px;
+}
+
+.td1 {
+	width: 40px;
+	left: 0px;
+	text-align: center;
+}
+
+.td2 {
+	width: 450px;
+	left: 40px;
+}
+
+.td3 {
+	width: 60px;
+	left: 490px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.td3 a {
+	color: rgb(238, 119, 17);
+}
+
+.td3 a:active {
+	color: rgb(242, 242, 242);
+}
+
+.td3:hover {
+	background: rgb(193, 79, 102);
+}
+
+.td3 a:hover {
+	color: rgb(255, 255, 255);
+}
+
+.pages {
+	position: absolute;
+	bottom: 10px;
+	left: 160px;
+	font-size: 20px;
+}
+
+.pages font {
+	color: red;
+}
+
+.pages a {
+	cursor: pointer;
+	color: blue;
+}
+
+.pages a:hover {
+	color: rgb(238, 119, 17);
+}
+
+/* 心形图像 */
+#h-animate {
+	z-index: 9997;
+}
+
+/* 左侧图片拖拽  */
+.imgUpload {
+	background: rgb(50, 121, 175);
+	font-size: 14px;
+	font-family: "微软雅黑";
+	position: inherit;
+	left: 0px;
+	margin-left: 0px;
+	border-radius: 8px;
+}
+
+.title {
+	text-align: center;
+	color: #fff;
+	margin-top: 0px;
+}
+
+.demo {
+	width: 300px;
+	height: 120px;
+	margin: 50px auto;
+}
+
+.drag-area {
+	width: 100%;
+	height: 100px;
+	border: 3px dashed #fff;
+	text-align: center;
+	line-height: 100px;
+	color: #fff;
+	font-size: 28px;
+	font-weight: 25;
+}
+
+}
+.preview div {
+	width: 0px;
+	overflow: hidden;
+	border: 1px dashed silver;
+	margin-top: 10px;
+	float: left;
+	padding: 9px;
+	text-align: center;
+	height: 50px;
+}
+
+.preview img {
+	width: 80px;
+	height: 80px;
+}
+
