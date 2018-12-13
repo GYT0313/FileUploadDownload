@@ -105,24 +105,6 @@ color: rgb(238, 119, 17);
 	<!--===== END Advertisement =====-->
 
 
-	<header>
-<!-- 		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-6"></div>
-
-				<div class="col-sm-6">
-					<div class="logo-desc wow bounceInRight" data-wow-delay="0.4s">
-						<a href="#"> <span class="logo-desc-text">
-						<i class="iconfont">&#xe619;</i>Manage my files</span></a>
-					</div>
-				</div>
-
-			</div>
-			/.Row
-		</div> -->
-		<!-- ./container -->
-	</header>
 	<!--===== END Header =====-->
 
 
@@ -153,36 +135,6 @@ color: rgb(238, 119, 17);
 		</div>
 		<!-- /.container -->
 	</section>
-
-
-<%-- 	<!--===== Begin Update File =====-->
-	<section id="content">
-		<div class="container">
-
-			<div class="col-sj-12">
-
-				<!-- update-file-container -->
-				<div class="up-container wow bounceIn" data-wow-delay="0.9s">
-
-					<!-- upload files -->
-					<form id="form" action="${ pageContext.request.contextPath }/UploadServlet" method="post"
-						enctype="multipart/form-data" hidden="">
-						<input id="files" name="file" multiple="multiple"
-							style="display: none;" class="file-addr" type="file" /> 
-							<input type='hidden' name='csrfmiddlewaretoken'
-							value='KkH5QKGddlcrnylQOY3KwwNre5uxIzHFUIKKMkEJVshVWuQZeNHakFNsoyaEgWfU' />
-						<!-- {% csrf_token %} -->
-						<div class="uploadfile"><input id="bt" type="button" value="Upload File" /></div>
-					</form>
-					<!-- END Upload file -->
-				</div>
-
-			</div>
-
-		</div>
-		<!-- /.container -->
-	</section>
- --%>
 
 	<section>
 		<div class="container">
